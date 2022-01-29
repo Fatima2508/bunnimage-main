@@ -24,7 +24,7 @@ async function handle(event) {
         var payload = new FormData(myform);
 
         console.log("Posting your image...");
-        const resp = await fetch("https://bunnimage1.azurewebsites.net/api/uploadTrigger?code=KoBTKQHAZXP9DO6iqhjKGTe806ULkqmcx6xbuqc6vsA8F56Zgzif6Q==", {
+        const resp = await fetch("https://bunnimage1.azurewebsites.net/api/uploadTrigger?code=SyEVvH8xcU5SDodVBkMgkQiZ51nJUScXbr6BL9A8vdVoMuqZaTMQWg==", {
             method: 'POST',
             headers: {
                 'username' : username
